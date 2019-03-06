@@ -19,6 +19,7 @@ call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" * "%CD%"
 
 call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" "zip,rar,nz,rz,ace,wav,mp3,jpg" "%CD%" >> "%SCRIPTHOMEDIR%\log.txt"
 
+
 Enjoy,
 
 Aeneas of Troy
