@@ -14,12 +14,12 @@ _GetSizeExt.bat "wav,jpg" "%CD%\audiofiles"
 _GetSizeExt.bat "zip,rar,nz,rz,ace,wav,mp3,jpg" "%CD%\files"
 
 
-# calling the script from another batch:
+# Calling the script from another batch script:
 call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" * "%CD%"
 
 call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" "zip,rar,nz,rz,ace,wav,mp3,jpg" "%CD%" >> "%SCRIPTHOMEDIR%\log.txt"
 
 
-Enjoy,
+#### Enjoy,
 
-Aeneas of Troy
+## Aeneas of Troy
