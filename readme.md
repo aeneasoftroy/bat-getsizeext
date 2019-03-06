@@ -15,8 +15,11 @@ _GetSizeExt.bat "zip,rar,nz,rz,ace,wav,mp3,jpg" "%CD%\files"
 
 
 # Calling the script from another batch script:
+### (This will only output to the screen)
 call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" * "%CD%"
 
+# Output to a log file from another batch script:
+### (useful for automated compressor benchmarking)
 call "%SCRIPTHOMEDIR%\_GetSizeExt.bat" "zip,rar,nz,rz,ace,wav,mp3,jpg" "%CD%" >> "%SCRIPTHOMEDIR%\log.txt"
 
 
